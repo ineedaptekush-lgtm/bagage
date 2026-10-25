@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://idealny-bagazhnik-surgut.erofeypavlovich.chatgpt.site/sitemap.xml

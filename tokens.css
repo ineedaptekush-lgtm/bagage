@@ -1,0 +1,56 @@
+/* Cinematic — HTML: data-system="cinematic". Полные цвета, без обёртки hsl(). */
+:root[data-system="cinematic"] {
+  --background: #0B0D10;
+  --foreground: #F7F8FA;
+  --card: #15191F;
+  --muted: #20252D;
+  --muted-foreground: #ADB6C2;
+  --primary: #CF3041;
+  --primary-foreground: #FFFFFF;
+  --secondary: #272F39;
+  --secondary-foreground: #F7F8FA;
+  --accent: #352329;
+  --accent-foreground: #FFDDE0;
+  --border: #343D49;
+  --input: #728195;
+  --ring: #FF767D;
+  --highlight: #FF767D;
+  --destructive: #FB7185;
+  --destructive-foreground: #3B0816;
+  --success: #65D4A7;
+  --success-foreground: #092C21;
+  --warning: #F3CE7B;
+  --warning-foreground: #352500;
+  --card-foreground: #F7F8FA;
+  --popover: #15191F;
+  --popover-foreground: #F7F8FA;
+  --surface: #20252D;
+  --surface-foreground: #F7F8FA;
+  --sidebar: #15191F;
+  --sidebar-foreground: #F7F8FA;
+  --sidebar-primary: #CF3041;
+  --sidebar-primary-foreground: #FFFFFF;
+  --sidebar-accent: #352329;
+  --sidebar-accent-foreground: #FFDDE0;
+  --sidebar-border: #343D49;
+  --sidebar-ring: #FF767D;
+  --chart-1: #FF767D;
+  --chart-2: #7ACCD5;
+  --chart-3: #D8B47D;
+  --chart-4: #9DABEE;
+  --chart-5: #A9D5AA;
+  --radius: 1rem;
+  --radius-button: .75rem;
+  --font-body: "Manrope", Arial, sans-serif;
+  --font-display: "Unbounded", Arial, sans-serif;
+  --display-weight: 500;
+  --display-tracking: -.04em;
+  --text-hero: clamp(2rem, 5vw, 4.75rem);
+  --text-h2: clamp(1.75rem, 3vw, 3rem);
+  --section-space: clamp(3.5rem, 7vw, 7rem);
+  --container-width: 80rem;
+  --duration-panel: 220ms;
+  color-scheme: dark;
+}
+
+:root[data-system="cinematic"]{--primary-hover:#B42636}
